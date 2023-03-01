@@ -5,6 +5,7 @@
   background-color: #fff;
   position: fixed;
   top: 0;
+  padding: 15px 0;
 }
 
 
@@ -22,7 +23,6 @@
   width: 1100px;
   display: flex;
   justify-content: space-between;
-  padding: 15px 0;
 }
 
 
@@ -113,11 +113,11 @@
 .work{
   width: 100%;
   background-color: #e3f2fd;
+  padding-top: 50px;
 }
 
 .w_area{
   display: flex;
-  padding-top: 50px;
 }
 
 
@@ -181,13 +181,13 @@
   width: 100%;
   background-color: #fff;
   text-align: center;
+  padding-top: 50px;
 }
 
 .s_title{
   font-size: 40px;
   letter-spacing: 10px;
   font-weight: 700;
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 
