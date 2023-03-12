@@ -278,7 +278,9 @@ caption{
 
 
 
-
+ul.sns_logo li{
+  display: inline-block;
+}
 
 .sns_logo{
   width: 100%;
@@ -299,13 +301,18 @@ caption{
 }
 
 
-a:hover{
-  color: #ffffff;
+.sns_logo li{
   z-index: 1;
   transition: 0.7s;
   -webkit-transition: 0.7s;
   -moz-transition: 0.7s;
   -o-transition: 0.7s;
+}
+
+
+.sns_logo li:hover{
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 
