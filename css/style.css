@@ -286,11 +286,12 @@ ul.sns_logo li{
   width: 100%;
   display: grid;
   grid-template-columns: 185px 185px 185px 185px;
-  padding: 25px 0;
   justify-content: center;
 }
 
-
+.sns_logo > li{
+  padding: 25px 0;
+}
 
 
 
