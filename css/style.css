@@ -23,7 +23,11 @@
 }
 
 @media (max-width: 767px) {
-
+  .inner{
+    margin: 0 auto;
+    text-align: center;
+    width: 97%;
+  }
 }
 
 
@@ -35,6 +39,12 @@
 }
 
 @media (max-width: 1199px) {
+  .d_flex{
+    width: 97%;
+  }
+}
+
+@media (max-width: 797px) {
   .d_flex{
     width: 97%;
   }
@@ -118,6 +128,12 @@
   padding: 250px 0;
   }
 }
+@media (max-width: 767px) {
+  .key_visual{
+    background: url(../img/keyvisual/keyvisual.jpg) no-repeat center / cover;
+    padding: 200px 0;
+  }
+}
 
 
 
@@ -132,7 +148,12 @@
     width: 100%;
   }
 }
-
+@media (max-width: 797px) {
+  .title_area{
+    margin: 0 auto;
+    width: 100%;
+  }
+}
 
 
 
@@ -148,6 +169,14 @@
     width: 100%;
   }
 }
+@media (max-width: 767px) {
+  .k_title{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 40px;
+  }
+}
+
 
 
 .k_sub_title{
@@ -161,6 +190,13 @@
   .k_sub_title{
     margin: 0 auto;
     width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .k_sub_title{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 30px;
   }
 }
 
@@ -255,7 +291,6 @@
 
 @media (max-width: 1199px) {
   .w_text{
-    width: 60%;
     margin: 0 auto;
   }
 }
@@ -375,6 +410,19 @@ th[scope="col"]{
   line-height: 26px;
 }
 
+@media (max-width: 797px) {
+  th[scope="col"]{
+    font-size: 14px;
+  line-height: 22px;
+  }
+}
+
+@media (max-width: 797px) {
+  td{
+    font-size: 12px;
+  }
+}
+
 
 
 
@@ -408,6 +456,23 @@ caption{
     padding: 50px 0;
   }
 }
+
+@media (max-width: 797px) {
+  .sns{
+    width: 100%;
+    background-color: #e3f2fd;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 797px) {
+  .sns_container{
+    width: 100px;
+    margin: 0 auto;
+    padding: 50px 15px;
+  }
+}
+
 
 
 
@@ -451,6 +516,15 @@ ul.sns_logo li{
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
+}
+
+@media (max-width: 797px) {
+  .fab,.fa{
+    color: #8c8c8c;
+    overflow: hidden;
+    font-size: 40px;
+    padding: 50px 0;
+  }
 }
 
 
